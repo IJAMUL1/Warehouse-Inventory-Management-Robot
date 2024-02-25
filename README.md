@@ -1,6 +1,6 @@
 # Autonomous Warehouse Inventory Management Robot (AGV)
 
-This project aimed to create a warehouse assistive robot controlled by a Raspberry Pi 3B and a Parallax Propeller multicore Microcontroller. The robot was designed to navigate the warehouse and identify defective and non-defective widgets in the warehouse using directional aids and Aruco tag markers respectively.
+This project aims to create a warehouse assistive robot controlled by a Raspberry Pi 3B and a Parallax Propeller multicore Microcontroller. The robot was designed to navigate the warehouse and identify defective and non-defective widgets in the warehouse using image processing to identify directional aids and Aruco tag markers to identify defective and non-defective inventory.
 
 ![Untitled video - Made with Clipchamp (1)](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/c6173f7b-1845-4d30-968d-3258a48b0690)
 
@@ -21,9 +21,11 @@ The project encompasses hardware integration, navigation, object identification,
 ## Hardware Requirements
 
 List all the hardware components required for the project, including but not limited to:
+- Chassis and mechanical components
 - Raspberry Pi 3B
 - Raspberry PI Camera
 - Parallax Propeller microcontroller
+- Aruco Tag Markers
 - 2 x Continous Servo Motors
 - Pulolo Reflecance Sensor
 - 2 x Ultrasonic Sensors
@@ -37,24 +39,44 @@ List all the hardware components required for the project, including but not lim
 ## Software Requirements
 
 Specify all the software dependencies needed to run the project, including but not limited to:
+- Parallax Propeller Toolchain
+- SimpleIDE or PropellerIDE for development
+- Propeller C libraries (simpletools, servo, ping)
 - Raspbian OS
-- Python libraries (OpenCv)
-- Parallax Propeller toolchain
-- IDE (e.g., Visual Studio Code)
-- Etc.
+- Python 3.9 installed on the Raspberry Pi
+- Python Library (OpenCv, Numpy)
+- RPi.GPIO library for controlling GPIO pins (RPi.GPIO)
 
 ## Setup Instructions
+# Raspberry Pi Setup
+- Connect the camera module to the Raspberry Pi.
+- Install Python 3.x on the Raspberry Pi if not already installed.
+- Install OpenCV and NumPy libraries for Python on the Raspberry Pi.
+- Install the RPi.GPIO library for controlling GPIO pins.
+- Clone or download the project repository to the Raspberry Pi.
+- Connect the GPIO pins to external devices such as LEDs and motor drivers as per the circuit diagram provided.
+- Adjust the circuit connections and GPIO pin configurations in the code based on your use case.
 
-Provide step-by-step instructions for setting up the hardware and software components. Include any configuration or installation steps necessary to prepare the environment for running the project.
+# Parallax Properller Setup
+- Connect the Parallax Propeller microcontroller to your computer.
+- Install the Parallax Propeller Toolchain and SimpleIDE or PropellerIDE.
+- Clone or download the project repository to local device.
+- Open the project in SimpleIDE or PropellerIDE.
+- Compile and upload the properller code to the Parallax Propeller microcontroller.
+
+# Integration
+- Connect raspberry pi to properller based on pin connection in code files respectively. 
 
 ## Usage
 
-Explain how to use the project once it's set up. Provide examples or code snippets if applicable. Describe how to interact with the robot or any interfaces developed.
+Once the code is uploaded to the microcontroller and the hardware is assembled, follow these steps to use the robot:
+
+- Power on the robot.
+- The robot will perform initialization routines, including sensor calibration.
+- Depending on the mode of operation, the robot will perform tasks such as line following, obstacle avoidance, or intersection handling.
+- Monitor the status LEDs to understand the system's behavior.
+- Refer to the code documentation for specific functionality and control options.
 
 ## Contributing
 
 Include guidelines for contributing to the project, such as how to report bugs, submit patches, or suggest improvements. Mention any coding standards or conventions to follow.
-
-## License
-
-Specify the license under which the project is released. Include any terms and conditions for using or distributing the code or associated materials.
