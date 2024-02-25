@@ -16,25 +16,29 @@ This project aimed to create a warehouse assistive robot controlled by a Raspber
 
 ## Introduction
 
-Provide a detailed introduction to the project, including its purpose, goals, and any relevant background information. Mention the role of Raspberry Pi 3B and Parallax Propeller microcontroller in the project.
+The project encompasses hardware integration, navigation, object identification, electrical connections, and control logic. It involves navigating a predefined map to assist warehouse management in widget identification. The project objectives include accurate line following, intersection detection, handling directional aids, managing widget stations, counting widgets, reaching the docking station, and displaying the total widget count. These objectives guide the robot's functionality.
 
 ## Hardware Requirements
 
 List all the hardware components required for the project, including but not limited to:
 - Raspberry Pi 3B
+- Raspberry PI Camera
 - Parallax Propeller microcontroller
-- Additional sensors (if any)
-- Motors
+- 2 x Continous Servo Motors
+- Pulolo Reflecance Sensor
+- 2 x Ultrasonic Sensors
+- Parallax 2 X 16 Serial LCD With Piezo Speaker 
 - Power supply
 - Breadboard
 - Wires
+- Leds
 - Etc.
 
 ## Software Requirements
 
 Specify all the software dependencies needed to run the project, including but not limited to:
 - Raspbian OS
-- Python libraries (if applicable)
+- Python libraries (OpenCv)
 - Parallax Propeller toolchain
 - IDE (e.g., Visual Studio Code)
 - Etc.
