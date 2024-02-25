@@ -3,7 +3,7 @@
 This project aims to create a warehouse assistive robot controlled by a Raspberry Pi 3B and a Parallax Propeller multicore Microcontroller. The robot was designed to navigate the warehouse and identify defective and non-defective widgets in the warehouse using image processing to identify directional aids and Aruco tag markers to identify defective and non-defective inventory.
 
 # Warehouse Layout
-![warehouse layout](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/28388f19-776c-4212-b06f-d61a7172781f)
+![warehouse layout](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/f6ec4f6d-da96-4e24-85f9-ae792edc9d51)
 
 # Robot Demo
 ![Untitled video - Made with Clipchamp (1)](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/c6173f7b-1845-4d30-968d-3258a48b0690)
