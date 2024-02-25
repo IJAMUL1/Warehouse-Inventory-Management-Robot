@@ -1,6 +1,6 @@
-# Project Title
+# Autonomous Warehouse Inventory Management Robot (AGV)
 
-Brief description or overview of the project.
+This project aimed to create a warehouse assistive robot controlled by a Raspberry Pi 3B and a Parallax Propeller multicore Microcontroller. The robot was designed to navigate the warehouse and identify defective and non-defective widgets in the warehouse using directional aids and Aruco tag markers respectively.
 
 ## Table of Contents
 
