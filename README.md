@@ -1,8 +1,8 @@
 # Autonomous Warehouse Inventory Management Robot (AGV)
 
 This project aimed to create a warehouse assistive robot controlled by a Raspberry Pi 3B and a Parallax Propeller multicore Microcontroller. The robot was designed to navigate the warehouse and identify defective and non-defective widgets in the warehouse using directional aids and Aruco tag markers respectively.
-![Untitled video - Made with Clipchamp](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/7b406b51-b712-4778-9d8b-ed9ba6e95d70)
 
+![Untitled video - Made with Clipchamp (1)](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/c6173f7b-1845-4d30-968d-3258a48b0690)
 
 ## Table of Contents
 
