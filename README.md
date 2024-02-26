@@ -21,22 +21,23 @@ This project aims to create a warehouse assistive robot controlled by a Raspberr
 
 The project encompasses hardware integration, navigation, object identification, electrical connections, and control logic. It involves navigating a predefined map to assist warehouse management in widget identification. The project objectives include accurate line following, intersection detection, handling directional aids, managing widget stations, counting widgets, reaching the docking station, and displaying the total widget count. These objectives guide the robot's functionality.
 
-## Project Requirements: The robot must:
+## Project Requirements: 
 
-Utilize at least two controllers (e.g., Raspberry Pi and Arduino UNO or Propeller Activity Board).
-Follow the path (black tape) until reaching position 'C3' on the warehouse layout.
-Detect and respond to directional aids at odd intersections to navigate to the correct widget station.
-Detect and count defective and non-defective widgets at each station using computer vision algorithms with a camera.
-Navigate through each section, detecting widget stations on both sides.
-Reach the docking station at the end of the course based on the direction indicated by the directional aid at 'C3'.
-Display the total count of defective and non-defective widgets upon reaching the docking station.
+The robot must:
+- Utilizes two controllers (Raspberry Pi and Propeller Activity Board).
+- Follow the path (black tape) until reaching position 'C3' on the warehouse layout.
+- Detect and respond to directional aids at odd intersections to navigate to the correct widget station.
+- Detect and count defective and non-defective widgets at each station using computer vision algorithms with a camera.
+- Navigate through each section, detecting widget stations on both sides.
+- Reach the docking station at the end of the course based on the direction indicated by the directional aid at 'C3'.
+- Display the total count of defective and non-defective widgets upon reaching the docking station.
 
 ## Hardware Requirements
 
 The hardware components required for the project include:
 - Chassis and mechanical components
 - Raspberry Pi 3B
-- Raspberry PI Camera
+- Raspberry Pi Camera
 - Parallax Propeller microcontroller
 - Aruco Tag Markers
 - 2 x Continous Servo Motors
@@ -47,7 +48,6 @@ The hardware components required for the project include:
 - Breadboard
 - Wires
 - Leds
-- Etc.
 
 ## Software Requirements
 
@@ -61,7 +61,9 @@ The software tools, library and frame work for this project include:
 - RPi.GPIO library for controlling GPIO pins (RPi.GPIO)
 
 ## Setup Instructions
+
 # Raspberry Pi Setup
+
 - Connect the camera module to the Raspberry Pi.
 - Install Python 3.x on the Raspberry Pi if not already installed.
 - Install OpenCV and NumPy libraries for Python on the Raspberry Pi.
@@ -71,6 +73,7 @@ The software tools, library and frame work for this project include:
 - Adjust the circuit connections and GPIO pin configurations in the code based on your use case.
 
 # Parallax Properller Setup
+
 - Connect the Parallax Propeller microcontroller to your computer.
 - Install the Parallax Propeller Toolchain and SimpleIDE or PropellerIDE.
 - Clone or download the project repository to local device.
@@ -78,12 +81,12 @@ The software tools, library and frame work for this project include:
 - Compile and upload the properller code to the Parallax Propeller microcontroller.
 
 # Integration
+
 - Connect raspberry pi to properller based on pin connection in code files respectively. 
 
 ## Usage
 
 Once the code is uploaded to the microcontroller and the hardware is assembled, follow these steps to use the robot:
-
 - Power on the robot.
 - The robot will perform initialization routines, including sensor calibration.
 - Depending on the mode of operation, the robot will perform tasks such as line following, obstacle avoidance, or intersection handling.
