@@ -11,6 +11,7 @@ This project aims to create a warehouse assistive robot controlled by a Raspberr
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Project Requirements](#Project-requirements)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
 - [Setup Instructions](#setup-instructions)
@@ -20,6 +21,16 @@ This project aims to create a warehouse assistive robot controlled by a Raspberr
 ## Introduction
 
 The project encompasses hardware integration, navigation, object identification, electrical connections, and control logic. It involves navigating a predefined map to assist warehouse management in widget identification. The project objectives include accurate line following, intersection detection, handling directional aids, managing widget stations, counting widgets, reaching the docking station, and displaying the total widget count. These objectives guide the robot's functionality.
+
+## Project Requirements: The robot must:
+
+Utilize at least two controllers (e.g., Raspberry Pi and Arduino UNO or Propeller Activity Board).
+Follow the path (black tape) until reaching position 'C3'.
+Detect and respond to directional aids at odd intersections to navigate to the correct widget station.
+Detect and count defective and non-defective widgets at each station using computer vision algorithms with a camera.
+Navigate through each section, detecting widget stations on both sides.
+Reach the docking station at the end of the course based on the direction indicated by the directional aid at 'C3'.
+Display the total count of defective and non-defective widgets upon reaching the docking station.
 
 ## Hardware Requirements
 
