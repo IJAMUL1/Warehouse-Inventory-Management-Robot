@@ -16,7 +16,6 @@ This project aims to create a warehouse assistive robot controlled by a Raspberr
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
