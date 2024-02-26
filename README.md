@@ -25,7 +25,7 @@ The project encompasses hardware integration, navigation, object identification,
 ## Project Requirements: The robot must:
 
 Utilize at least two controllers (e.g., Raspberry Pi and Arduino UNO or Propeller Activity Board).
-Follow the path (black tape) until reaching position 'C3'.
+Follow the path (black tape) until reaching position 'C3' on the warehouse layout.
 Detect and respond to directional aids at odd intersections to navigate to the correct widget station.
 Detect and count defective and non-defective widgets at each station using computer vision algorithms with a camera.
 Navigate through each section, detecting widget stations on both sides.
