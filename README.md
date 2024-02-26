@@ -7,7 +7,7 @@ This project aims to create a warehouse assistive robot controlled by a Raspberr
 
 ## Robot Demo
 <p align="center">
-  <img src="https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/c6173f7b-1845-4d30-968d-3258a48b0690" alt="Your Image Description">
+  <img src="https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/c6173f7b-1845-4d30-968d-3258a48b0690" alt="Your Image Description" width="600">
 </p>
 
 ## Table of Contents
