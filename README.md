@@ -16,7 +16,6 @@ This project aims to create a warehouse assistive robot controlled by a Raspberr
 - [Software Requirements](#software-requirements)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Introduction
 
@@ -90,7 +89,3 @@ Once the code is uploaded to the microcontroller and the hardware is assembled, 
 - Depending on the mode of operation, the robot will perform tasks such as line following, obstacle avoidance, or intersection handling.
 - Monitor the status LEDs to understand the system's behavior.
 - Refer to the code documentation for specific functionality and control options.
-
-## Contributing
-
-Include guidelines for contributing to the project, such as how to report bugs, submit patches, or suggest improvements. Mention any coding standards or conventions to follow.
