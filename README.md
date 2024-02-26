@@ -64,7 +64,7 @@ The software tools, library and frame work for this project include:
 
 ## Setup Instructions
 
-# Raspberry Pi Setup
+## Raspberry Pi Setup
 
 - Connect the camera module to the Raspberry Pi.
 - Install Python 3.x on the Raspberry Pi if not already installed.
@@ -74,7 +74,7 @@ The software tools, library and frame work for this project include:
 - Connect the GPIO pins to external devices such as LEDs and motor drivers as per the circuit diagram provided.
 - Adjust the circuit connections and GPIO pin configurations in the code based on your use case.
 
-# Parallax Properller Setup
+## Parallax Properller Setup
 
 - Connect the Parallax Propeller microcontroller to your computer.
 - Install the Parallax Propeller Toolchain and SimpleIDE or PropellerIDE.
@@ -82,7 +82,7 @@ The software tools, library and frame work for this project include:
 - Open the project in SimpleIDE or PropellerIDE.
 - Compile and upload the properller code to the Parallax Propeller microcontroller.
 
-# Integration
+## Integration
 
 - Connect raspberry pi to properller based on pin connection in code files respectively. 
 
