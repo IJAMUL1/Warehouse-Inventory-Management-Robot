@@ -23,7 +23,7 @@ The project encompasses hardware integration, navigation, object identification,
 
 ## Hardware Requirements
 
-List all the hardware components required for the project, including but not limited to:
+The hardware components required for the project include:
 - Chassis and mechanical components
 - Raspberry Pi 3B
 - Raspberry PI Camera
