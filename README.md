@@ -41,7 +41,7 @@ The hardware components required for the project include:
 
 ## Software Requirements
 
-Specify all the software dependencies needed to run the project, including but not limited to:
+The software tools, library and frame work for this project include:
 - Parallax Propeller Toolchain
 - SimpleIDE or PropellerIDE for development
 - Propeller C libraries (simpletools, servo, ping)
